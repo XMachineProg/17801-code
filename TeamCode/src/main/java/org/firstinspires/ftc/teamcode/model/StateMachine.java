@@ -4,4 +4,5 @@ import java.util.ArrayList;
 
 public abstract class StateMachine {
     private ArrayList<State> states = new ArrayList<State>();
+    public abstract State getCurrentState();
 }
