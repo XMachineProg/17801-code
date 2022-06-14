@@ -1,6 +1,6 @@
 package org.firstinspires.ftc.teamcode.model;
 
-abstract class State {
+public abstract class State {
     protected abstract void init();
     protected abstract void loop();
 }
